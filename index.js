@@ -7,11 +7,11 @@ const robots = {
 
 async function Start(){
     console.log('> [index] Starting index...')
-    console.log('> =========================')
+    //console.log('> =========================')
     robots.plate()
-    console.log('> =========================')
+    //console.log('> =========================')
     await robots.api()
-    console.log('> =========================')
+    //console.log('> =========================')
     robots.search()
     console.log('> [index] process finished.')
     setTimeout(Start, 2000)

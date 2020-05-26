@@ -10,7 +10,7 @@ function robot() {
 
     
     content.searchCombination = {
-        letter_1: ['L', 'M'],
+        letter_1: ['A', 'B', 'C', 'D', 'E', 'F'], //,   'L', 'M', 'O'
         letter_2: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'],
         letter_3: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'],
         number_1: ['7'],
@@ -20,18 +20,18 @@ function robot() {
     }
 
     content.numberOfComb = content.searchCombination.letter_1.length * content.searchCombination.letter_2.length * content.searchCombination.letter_3.length * content.searchCombination.number_1.length * content.searchCombination.number_2.length * content.searchCombination.number_3.length * content.searchCombination.number_4.length
-    console.log(`> [plate] Number of combination: ${content.numberOfComb}`)
+    //console.log(`> [plate] Number of combination: ${content.numberOfComb}`)
     
     definePlateToCheck()
     state.Save(content)
 
     
-    console.log('> [plate] Plate robot has finished. ')
+    //console.log('> [plate] Plate robot has finished. ')
     
     
     
     function definePlateToCheck(){
-        console.log(`> [plate] Starting define plate to check...`)
+        //console.log(`> [plate] Starting define plate to check...`)
         
         const comb = content.searchCombination        
         content.allPlatesCombination = []
@@ -55,7 +55,7 @@ function robot() {
         })
 
         
-        console.log(`> [plate] Plate to check already defined.`)
+        //console.log(`> [plate] Plate to check already defined.`)
     }
 }
 
