@@ -11,11 +11,11 @@ function robot() {
     
     content.searchCombination = {
         letter_1: ['L', 'M'],
-        letter_2: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'],
-        letter_3: ['P', 'M'],
-        number_1: ['3'],
+        letter_2: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'],
+        letter_3: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'],
+        number_1: ['7'],
         number_2: ['2'],
-        number_3: ['3'],
+        number_3: ['4'],
         number_4: ['7'],
     }
 
